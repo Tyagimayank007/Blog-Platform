@@ -1,0 +1,54 @@
+.post-img {
+    overflow: hidden;
+    height: 270px;
+}
+
+.post-img img {
+    width: 100%;
+
+}
+
+.blog-post-content h1 {
+    text-align: center;
+    font-family: 'ubuntu';
+    padding-bottom: 5px;
+}
+
+.blog-post-content p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.more-post {
+    flex-direction: column;
+
+}
+
+.blogpost-meta {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.author-info {
+   margin: 12px 0;
+}
+
+.author-info div {
+    padding: 4px 0;
+    font-family: serif;
+}
+
+.author-info b {
+    font-size: 20px;
+}
+
+.social img {
+    width: 16px;
+    padding: 3px;
+    cursor: pointer;
+}
